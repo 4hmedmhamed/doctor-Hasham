@@ -77,6 +77,14 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 600; */
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    text-decoration: none;
 }
 
 html,
@@ -87,12 +95,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
 }
 
 a {
@@ -104,4 +107,214 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/* Nav-bar */
+
+.Nav-bar{
+  background-color: #380751;
+  height: 100px;
+  /* overflow: hidden; */
+}
+.nav-item{
+  color: #f3e40b;
+  font-weight: 1000;
+  text-decoration: none;
+}
+.nav-item:hover{
+  border-bottom: #f3e40b 2px solid;
+}
+.side-bar{
+  background-color :#380751;
+  /* width: 80px; */
+  /* max-width: 400px; */
+  /* margin-top: 100px; */
+  /* height: 100vh; */
+}
+.back{
+
+  background-color: #7507b469;
+  height: 96vh;
+  width: 105%;
+  overflow: hidden;
+  
+}
+.title-banner{
+  /* margin-top: 100px; */
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing:60px;
+  font-weight: 1000;
+  /* font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    text-decoration: none; */
+    color: #ffe00d;
+    font-size: 60px;
+    text-shadow: rgb(241, 216, 103) 3px 0 12px;
+}
+.title-bnner-seconed{
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    text-decoration: none;
+    color: #ffe00d;
+    text-shadow: rgb(241, 216, 103) 3px 0 12px;
+    font-size: 40px;
+}
+.title-banner-third{
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    text-decoration: none;
+    color: #f3f3f0;
+    text-shadow: rgb(219, 219, 217) 3px 0 12px;
+}
+/* serves */
+.Oursrvies{
+
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.icon-serves{
+width: 100px;
+height: 100px;
+font-size: 70px;
+text-align: center;
+background-color: #380751;
+color: #fafafa;
+border-radius: 50%;
+margin-right: 40%;
+
+}
+.shadow-our{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.title-serves{
+  color: #380751;
+  text-shadow: #5552e4 1px 1px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.tabell{
+  width: 95% ;
+  height: auto;
+   border: 1px solid rgb(226, 222, 222);
+   position: relative;
+   animation-name: example;
+   animation-duration: 10s;  
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+  }
+  @keyframes example {
+    0% {right: 0px;box-shadow: 10px 5px 5px rgb(105, 103, 103);}
+    50% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+    100% {right: 0px;box-shadow: 10px 5px 5px  rgb(105, 103, 103);}
+  }
+.tabell1{
+  width: 95% ;
+  height: auto;
+  /* background-color: #380751;
+   */
+   border: 1px solid rgb(248, 247, 247);
+   /* background: red; */
+   position: relative;
+   animation-name: example2;
+   animation-duration: 10s;  
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes example2 {
+  0% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+  50% {right: 0px;box-shadow: 10px 5px 5px rgb(105, 103, 103);}
+  100% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+}
+
+
+
+
+.tabell2{
+  width: 100px ;
+  height: 100px;
+  background-color: #c2eb0f;
+  border-radius: 50%;
+
+
+}
+
+
+.tabell3{
+  width: 95% ;
+  height: auto;
+   border: 1px solid rgb(226, 222, 222);
+   position: relative;
+   animation-name: example3;
+   animation-duration: 10s;  
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+  }
+  @keyframes example3 {
+    0% {right: 0px;box-shadow: 10px 5px 5px rgb(105, 103, 103);}
+    50% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+    100% {right: 0px;box-shadow: 10px 5px 5px  rgb(105, 103, 103);}
+  }
+.tabell4{
+  width: 95% ;
+  height: auto;
+  /* background-color: #380751;
+   */
+   border: 1px solid rgb(248, 247, 247);
+   /* background: red; */
+   position: relative;
+   animation-name: example4;
+   animation-duration: 10s;  
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes example4 {
+  0% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+  50% {right: 0px;box-shadow: 10px 5px 5px rgb(105, 103, 103);}
+  100% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+}
+.title-about{
+  color: #380751;
+  font-weight: 1000;
+  
+}
+.icon-right{
+  color: #1b7a08;
+  font-size: 20px;
+}
+.text-about{
+  font-weight: 900;
+}
+.title-advantages{
+  font-weight: 900;
+  color: #5d118a;
+
+  text-shadow: rgb(179, 177, 175) 1px 0 10px;
+}
+
+.text-advantages{
+  font-weight: 700;
+  color: #282729;
+}
+
+.customer-write{
+  width: 75%;
+  height: 260px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
