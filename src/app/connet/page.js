@@ -37,16 +37,16 @@ function page() {
 </div>
 <div className='col-md-6'>
 <label>ادخل الايميل</label>
-<input type="email" className='form-control' name="email" placeholder='ادخل الايميل' /><br/>
+<input type="email" className='form-control' name="mail" placeholder='ادخل الايميل' /><br/>
 </div>
 <div className='col-md-6'>
 <label>التاريخ</label>
 <input type="date" className='form-control' name="date" /><br/>
 </div>
-<div className='col-md-6'>
+{/* <div className='col-md-6'>
 <label>العنوان</label>
 <input type="text" className='form-control' name="address" placeholder='العنوان ' /><br/>
-</div>
+</div> */}
 <div className='col-md-12 '>
 <span>للاستفسار </span>
 <textarea  className='form-control h-100 ' name="comment" placeholder=''   >
