@@ -27,7 +27,7 @@ function page() {
   <div className='border rounded'>
 
 
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+<form action="mailto:someone@example.com" method="get" >
 <div className='row'>
 
 <div className='col-md-6'>
