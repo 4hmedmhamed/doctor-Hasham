@@ -10,14 +10,44 @@ function Aboute() {
     <Container>
       <div className='row mt-5 border-bottom'>
         <h2 className='text-center text-primary ' >من نحن</h2>
+<div>
 
-
+        <div  className='mt-4  ' style={{position:"relative"}} >
+            <Image
+              src={first}
+              style={{
+                width: '65%',
+                height: '80vh',
+                borderRadius: "20px",
+                boxShadow: " rgba(0, 0, 0, 0.35) 5px 2px 5px 5px",
+                position:"absolute",
+                // marginRight:"50%"
+                // zIndex:"1000"
+              }}
+            ></Image>
+            <Image
+              src={sec}
+              style={{
+                position:"absolute",
+                marginTop:"20vh",
+                marginRight:"40%",
+                width: '60%',
+                height: '50vh',
+                borderRadius: "20px",
+                boxShadow: " rgba(0, 0, 0, 0.35) 5px 2px 5px 5px",
+              }}
+            ></Image>
+          </div>
+</div>
         <div className='row'>
+<div className='d-block d-lg-nine' style={{height:"80vh"}}>
+  
+</div>
 
         <div className='col-md-6'>
 
           <div className='row'>
-
+        
 <div className='col-md-12'>
 
           <div  className='mt-4 d-none d-lg-block' style={{position:"relative"}} >
