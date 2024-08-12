@@ -83,6 +83,7 @@ function Aboute() {
               <div className=''></div>
             </div>
           </div>
+         
 
           <div className='col-lg-6 col-md-12 '>
             <h2 className='text-center mt-5  title-about'>
