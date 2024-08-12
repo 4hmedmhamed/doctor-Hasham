@@ -10,10 +10,17 @@ function Aboute() {
     <Container>
       <div className='row mt-5 border-bottom'>
         <h2 className='text-center text-primary ' >من نحن</h2>
+
+
         <div className='row'>
 
         <div className='col-md-6'>
-          <div  className='mt-4' style={{position:"relative"}}>
+
+          <div className='row'>
+
+<div className='col-md-12'>
+
+          <div  className='mt-4 d-none d-lg-block' style={{position:"relative"}} >
             <Image
               src={first}
               style={{
@@ -39,7 +46,11 @@ function Aboute() {
               }}
             ></Image>
           </div>
+</div>
+          <div className=''></div>
+          </div>
         </div>
+    
         <div className='col-md-6 '>
           <h2 className='text-center mt-5  title-about'>
             مركز اقصر النيل
