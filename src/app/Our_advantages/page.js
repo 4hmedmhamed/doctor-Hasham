@@ -1,6 +1,6 @@
 import React from 'react'
 import Our_advantages from '../Our_advantages'
-
+import "./../page.module.css"
 function page() {
     return (
         <div>
@@ -12,6 +12,7 @@ function page() {
                 <br></br>
      
             </div>
+            
             <Our_advantages></Our_advantages>
         </div>
     )

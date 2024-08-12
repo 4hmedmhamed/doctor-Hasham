@@ -1,90 +1,21 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Changa:wght@200..800&family=Noto+Nastaliq+Urdu:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   direction: rtl;
-  font-family: "Cairo", sans-serif;
-  font-optical-sizing: auto;
-  /* font-weight: 600; */
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
     text-decoration: none;
+
+    font-family: "Cairo", sans-serif;
+    /* font-optical-sizing: 20px; */
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      /* text-shadow: rgb(219, 219, 217) 3px 0 12px; */
+   
 }
 
 html,
@@ -93,10 +24,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  
-}
+
 
 a {
   color: inherit;
@@ -133,7 +61,7 @@ a {
 }
 .back{
 
-  background-color: #7507b469;
+  /* background-color: #7507b469; */
   height: 96vh;
   width: 105%;
   overflow: hidden;
@@ -143,25 +71,26 @@ a {
   /* margin-top: 100px; */
   font-family: "Cairo", sans-serif;
   font-optical-sizing:60px;
-  font-weight: 1000;
+  font-weight: 700;
   /* font-style: normal;
   font-variation-settings:
     "slnt" 0;
     text-decoration: none; */
     color: #ffe00d;
+    text-shadow: rgb(122, 105, 28) 3px 0 12px;
     font-size: 60px;
-    text-shadow: rgb(241, 216, 103) 3px 0 12px;
+    /* text-shadow: rgb(241, 216, 103) 1px 0 6px; */
 }
 .title-bnner-seconed{
   font-family: "Cairo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 600;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
     text-decoration: none;
     color: #ffe00d;
-    text-shadow: rgb(241, 216, 103) 3px 0 12px;
+    text-shadow: rgb(122, 105, 28) 3px 0 12px;
     font-size: 40px;
 }
 .title-banner-third{
@@ -173,7 +102,7 @@ a {
     "slnt" 0;
     text-decoration: none;
     color: #f3f3f0;
-    text-shadow: rgb(219, 219, 217) 3px 0 12px;
+    text-shadow: rgb(100, 100, 99) 3px 0 12px;
 }
 /* serves */
 .Oursrvies{
@@ -199,8 +128,8 @@ margin-right: 40%;
 .title-serves{
   color: #380751;
   text-shadow: #5552e4 1px 1px;
-  font-size: 40px;
-  font-weight: 800;
+  /* font-size: 40px; */
+  /* font-weight: 800; */
 }
 .tabell{
   width: 95% ;
@@ -318,4 +247,11 @@ margin-right: 40%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: #282729;
+}
+
+
+.up{
+  background-color: #282729;
+  width: 105px;
+  height: 200px;
 }

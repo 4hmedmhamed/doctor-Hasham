@@ -5,15 +5,16 @@ import Oursrvies from "./Oursrvies";
 import Aboute from "./Aboute";
 import Our_advantages from "./Our_advantages";
 import { Footer } from "./Footer";
+import Slicks from "./Slicks";
 export default function Home() {
   return (
     
    <>
        <MainPage></MainPage>
        <Oursrvies></Oursrvies>
-       <Aboute></Aboute>
+       {/* <Aboute></Aboute> */}
        <Our_advantages></Our_advantages>
-       {/* <Footer></Footer> */}
+       {/* <Slicks ></Slicks> */}
    </>
    
 

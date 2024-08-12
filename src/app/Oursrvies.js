@@ -10,109 +10,82 @@ import { SlChemistry } from "react-icons/sl";
 import { FaMicroscope } from "react-icons/fa";
 import { FaRegHospital } from "react-icons/fa6"
 import { MdOutlineFamilyRestroom } from "react-icons/md";
+import "./page.module.css"
 function Oursrvies() {
     return (
-            <Container>
-                <div className='row text-center Oursrvies mt-5  '>
-                    <div className='col-md-12 mt-2'>
-                        <h2  className='title-serves'> لماذا مركز قصر النيل </h2>
-                        <h3 className='text-primary fs-2 text-primary   text-primary '>خدمات مركز قصر النيل للنساء والتوليد </h3>
-                    </div>
-                    
-                    
+        <Container>
+            <div className='row text-center Oursrvies mt-5  '>
+                <div className='col-md-12 mt-2'>
+                    <h2 className='title-serves   '> لماذا مركز قصر النيل ؟ </h2>
+                </div>
 
-                    <div className='col-md-4 d-flex justify-content-center border '>
-                        <div className=''>
+
+
+                <div className='col-md-6 d-flex justify-content-center border '>
+                    <div className=''>
 
                         <div className='icon-serves text-center  my-3 '>
 
                             <  FaSatelliteDish />
 
                         </div>
-                        <div className='fs-2 text-primary    text-primary '>
-                        عيادة نساء وتوليد مجهزة بأحدث أشعة تلفزيونية والسونار
+                        <div className='fs-4 text-primary     '>
+                            عيادة نساء وتوليد مُزودة بأحدث الأجهزة والتقنيات الطبية.
                         </div>
-                        </div>
-
                     </div>
-                    <div className='col-md-4 d-flex justify-content-center  border '>
-                        <div className=''>
+
+                </div>
+                <div className='col-md-6 d-flex justify-content-center  border '>
+                    <div className=''>
 
                         <div className='icon-serves text-center   my-3 '>
 
                             <FaBaby></FaBaby>
 
                         </div>
-                        <div className='fs-2 text-primary ' text-primary >
-                       متابعة نمو الجنين، والمعرفه المبكره لمشاكل  في الأجنة و علاجها
+                        <div className='fs-4 text-primary ' text-primary >
+                        غرفة عمليات مُهيأة لإجراء مختلف عمليات الولادة الطبيعية والقيصرية.
                         </div>
-                        </div>
-
                     </div>
-                    <div className='col-md-4 d-flex justify-content-center border '>
-                        <div className=''>
+
+                </div>
+                <div className='col-md-6 d-flex justify-content-center border '>
+                    <div className=''>
 
                         <div className='icon-serves text-center  my-3 '>
 
                             <  MdPregnantWoman />
 
                         </div>
-                        <div className='fs-2 text-primary ' text-primary >
-                        ومتابعة الحمل الحرج، وعلاج عمليات العقم الأولي والثانوي
-                        </div>
-                        </div>
+                        <div className='fs-4 text-primary ' text-primary >
 
+
+                        إجراء المناظير الجراحية بمختلف أنواعها مثل عمليات استئصال الرحم بالمنظار و مناظير العقم والأنابيب.
+
+                        </div>
                     </div>
-                    <div className='col-md-4 d-flex justify-content-center border '>
-                        <div className=''>
+
+                </div>
+                <div className='col-md-6 d-flex justify-content-center border '>
+                    <div className=''>
 
                         <div className='icon-serves text-center  my-3 '>
 
                             <SlChemistry />
 
                         </div>
-                        <div className='fs-2 text-primary ' text-primary >
-                        معمل تحاليل للسيدات لإجراء كافة التحاليل والفحوصات خلال فترة الحمل
-                        </div>
-                        </div>
+                        <div className='fs-4 text-primary ' text-primary >
 
+                        إجراء مختلف عمليات الولادة بشكل صحي آمن ودون الشعور بأي آلام.
+                        </div>
                     </div>
-                    <div className='col-md-4 d-flex justify-content-center border '>
-                        <div className=''>
-
-                        <div className='icon-serves text-center  my-3 '>
-
-                            <FaRegHospital />
-
-                        </div>
-                        <div className='fs-2 text-primary ' text-primary >
-                        غرفة عمليات مجهزة بأحدث الأجهزة لإجراء عمليات كبرى للولادة الطبيعية والقيصرية 
-                        </div>
-                        </div>
-
-                    </div>
-                    <div className='col-md-4 d-flex justify-content-center border '>
-                        <div className=''>
-
-                        <div className='icon-serves text-center  my-3 '>
-
-                            <MdOutlineFamilyRestroom />
-
-                        </div>
-                        <div className='fs-2 text-primary ' text-primary >
-                 
- المناظير الجراحية مثل عمليات استئصال الرحم بالمنظار 
-و
-مناظير العقم والأنابيب 
-
-                        </div>
-                        </div>
-
-                    </div>
-               
 
                 </div>
-            </Container>
+           
+
+
+            </div>
+        </Container>
     )
 }
 

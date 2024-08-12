@@ -40,22 +40,22 @@ function OffCanvasExample({ name, ...props }) {
                 <Offcanvas.Body >
                     <div class="p-2 flex-fill bd-highlight  mt-3  text-center" style={{ backgroundColor: "hsl(278, 86%, 25%) " }}>
                         <div className='m-3 border-bottom'>
-                            <Link href={'/'} className='nav-item fs-3 mt-5'>الرئيسية</Link>
+                            <Link href={'/'} className='nav-item fs-5 mt-5'>الرئيسية</Link>
                         </div>
                         <div className='m-3 border-bottom'>
-                            <Link href={'/about'} className='nav-item fs-3 m-5 '>من نحن </Link>
+                            <Link href={'/about'} className='nav-item fs-5 m-5 '>من نحن </Link>
                         </div>
                         <div className='m-3 border-bottom'>
-                            <Link href={'/Oursrvies'} className='nav-item fs-3 m-5 '>خدماتنا </Link>
+                            <Link href={'/Oursrvies'} className='nav-item fs-5 m-5 '>خدماتنا </Link>
                         </div>
                         <div className='m-3 border-bottom'>
-                            <Link href={'/Our_advantages'} className='nav-item fs-3 m-5 '>مميزاتنا</Link>
+                            <Link href={'/Our_advantages'} className='nav-item fs-5 m-5 '>مميزاتنا</Link>
                         </div>
                         <div className='m-3 border-bottom'>
-                            <Link href={'/'} className='nav-item fs-3 m-5 '>اخبار</Link>
+                            <Link href={'/'} className='nav-item fs-5 m-5 '>اخبار</Link>
                         </div>
                         <div className='m-3 border-bottom'>
-                            <Link href={'/connet'} className='nav-item fs-3 m-5 '>تواصل معانا</Link>
+                            <Link href={'/connet'} className='nav-item fs-5 m-5 '>تواصل معانا</Link>
                         </div>
                     </div>
                 </Offcanvas.Body>
@@ -81,22 +81,22 @@ function Navbar() {
 
                                 <div class="p-2 flex-fill bd-highlight d-flex mt-3">
                                     <div >
-                                        <Link href={'/'} className='nav-item fs-3 mx-2'>الرئيسية</Link>
+                                        <Link href={'/'} className='nav-item fs-5 mx-2'>الرئيسية</Link>
                                     </div>
                                     <div >
-                                        <Link href={'/about'} className='nav-item fs-3 mx-2'>من نحن </Link>
+                                        <Link href={'/about'} className='nav-item fs-5 mx-2'>من نحن </Link>
                                     </div>
                                     <div >
-                                        <Link href={'/Oursrvies'} className='nav-item fs-3 mx-2'>خدماتنا </Link>
+                                        <Link href={'/Oursrvies'} className='nav-item fs-5 mx-2'>خدماتنا </Link>
                                     </div>
                                     <div >
-                                        <Link href={'/Our_advantages'} className='nav-item fs-3 mx-2'>مميزاتنا</Link>
+                                        <Link href={'/Our_advantages'} className='nav-item fs-5 mx-2'>مميزاتنا</Link>
                                     </div>
                                     <div >
-                                        <Link href={'/'} className='nav-item fs-3 mx-2'>اخبار</Link>
+                                        <Link href={'/'} className='nav-item fs-5 mx-2'>اخبار</Link>
                                     </div>
                                     <div >
-                                        <Link href={'/connet'} className='nav-item fs-3 mx-2'>تواصل معانا</Link>
+                                        <Link href={'/connet'} className='nav-item fs-5 mx-2'>تواصل معانا</Link>
                                     </div>
                                 </div>
                             </div>
