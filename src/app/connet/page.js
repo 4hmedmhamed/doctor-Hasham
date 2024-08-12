@@ -33,19 +33,19 @@ function page() {
 <div className='col-md-6'>
 
 <label>الاسم</label>
-<input type="text" className='form-control' name="name"  placeholder='الاسم'/><br/>
+<input type="text" className='form-control' name="الاسم"  placeholder='الاسم'/><br/>
 </div>
 <div className='col-md-6'>
 <label>ادخل الايميل</label>
-<input type="email" className='form-control' name="mail" placeholder='ادخل الايميل' /><br/>
+<input type="email" className='form-control' name="الايميل" placeholder='ادخل الايميل' /><br/>
 </div>
 <div className='col-md-6'>
 <label>التاريخ</label>
-<input type="date" className='form-control' name="date" /><br/>
+<input type="date" className='form-control' name="التاريخ" /><br/>
 </div>
 <div className='col-md-6'>
 <label>العنوان</label>
-<input type="text" className='form-control' name="mail" placeholder='العنوان ' /><br/>
+<input type="text" className='form-control' name="العنوان" placeholder='العنوان ' /><br/>
 </div>
 <div className='col-md-12 '>
 <span>للاستفسار </span>
