@@ -10,6 +10,8 @@ function Aboute() {
     <Container>
       <div className='row mt-5 border-bottom'>
         <h2 className='text-center text-primary ' >من نحن</h2>
+        <div className='row'>
+
         <div className='col-md-6'>
           <div  className='mt-4' style={{position:"relative"}}>
             <Image
@@ -101,6 +103,7 @@ function Aboute() {
                               </p>
           </div>
         
+        </div>
         </div>
         <div >
           <br></br>

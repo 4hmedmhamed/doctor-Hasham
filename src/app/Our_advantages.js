@@ -24,7 +24,7 @@ function Our_advantages() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     speed: 5000,
