@@ -27,35 +27,17 @@ function page() {
   <div className='border rounded'>
 
 
-<form action="mailto:qasrelnil061@gmail.com" method="get" >
-<div className='row'>
-
-<div className='col-md-6'>
-
-<label>الاسم</label>
-<input type="text" className='form-control' name="name"  placeholder='الاسم'/><br/>
-</div>
-<div className='col-md-6'>
-<label>ادخل الايميل</label>
-<input type="text" className='form-control' name=" mail" placeholder='ادخل الايميل' /><br/>
-</div>
 
 
-{/* <div className='col-md-6'>
-<label>العنوان</label>
-<input type="text" className='form-control' name="address" placeholder='العنوان ' /><br/>
-</div> */}
-
-<div className='col-md-12 '>
-<span>للاستفسار </span>
-<textarea  className='form-control h-100 ' name="comment" placeholder=''   >
-
-</textarea>
-
-</div>
-</div>
-<br />
-<input type="submit" className='btn btn-primary' value="ارسال" />
+  <form action="mailto:qasrelnil061@gmail.com" method="get" enctype="text/plain">
+Name:<br/>
+<input type="text" name="name" /><br />
+E-mail:<br />
+<input type="text" name="mail" /><br />
+Comment:<br />
+<input type="text" name="comment" size="50" /><br /><br />
+<input type="submit" value="Send" />
+{/* <input type="reset" value="Reset" /> */}
 </form>
 </div>
       </div>
