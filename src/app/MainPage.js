@@ -14,11 +14,8 @@ function MainPage() {
             <p className='d-none d-lg-block'>.</p>
 
             <div className='row back' >
-
-
                <div className='col-md-12'>
                   <div class="position-relative">
-
                      <div class="position-absolute  back" >
                         <div
                            className='row'>
@@ -75,7 +72,6 @@ function MainPage() {
 
                         </div>
                      </div>
-
                   </div>
                   <Image
                      src={banner}

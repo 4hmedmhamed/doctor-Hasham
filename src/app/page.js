@@ -11,7 +11,7 @@ export default function Home() {
    <>
        <MainPage></MainPage>
        <Oursrvies></Oursrvies>
-       <Aboute></Aboute>
+       {/* <Aboute></Aboute> */}
        <Our_advantages></Our_advantages>
    </>
    

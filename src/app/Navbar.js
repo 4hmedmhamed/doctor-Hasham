@@ -26,7 +26,7 @@ function OffCanvasExample({ name, ...props }) {
                 }
             </p>
 
-            <Offcanvas show={show} onHide={handleClose} {...props} style={{ backgroundColor: "hsl(278, 86%, 25%) ", width: "80%" }} className="side-bar">
+            <Offcanvas show={show} onHide={handleClose} {...props} style={{ backgroundColor: "#360851 ", width: "80%" }} className="side-bar">
                 <Offcanvas.Header closeButton>
                     <div className='w-100'>
 
@@ -38,7 +38,7 @@ function OffCanvasExample({ name, ...props }) {
                     </div>
                 </Offcanvas.Header>
                 <Offcanvas.Body >
-                    <div class="p-2 flex-fill bd-highlight  mt-3  text-center" style={{ backgroundColor: "hsl(278, 86%, 25%) " }}>
+                    <div class="p-2 flex-fill bd-highlight  mt-3  text-center" style={{ backgroundColor: "#360851" }}>
                         <div className='m-3 border-bottom'>
                             <Link href={'/'} className='nav-item fs-5 mt-5'>الرئيسية</Link>
                         </div>
@@ -55,7 +55,7 @@ function OffCanvasExample({ name, ...props }) {
                             <Link href={'/'} className='nav-item fs-5 m-5 '>اخبار</Link>
                         </div>
                         <div className='m-3 border-bottom'>
-                            <Link href={'/connet'} className='nav-item fs-5 m-5 '>تواص_ معانا</Link>
+                            <Link href={'/connet'} className='nav-item fs-5 m-5 '>تواصل_معانا</Link>
                         </div>
                     </div>
                 </Offcanvas.Body>
