@@ -72,13 +72,10 @@ a {
   font-family: "Cairo", sans-serif;
   font-optical-sizing:60px;
   font-weight: 700;
-  /* font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-    text-decoration: none; */
+
     color: #ffe00d;
     text-shadow: rgb(122, 105, 28) 3px 0 12px;
-    font-size: 60px;
+    font-size: 50px;
     /* text-shadow: rgb(241, 216, 103) 1px 0 6px; */
 }
 .title-bnner-seconed{

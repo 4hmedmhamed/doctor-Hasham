@@ -22,7 +22,38 @@ function MainPage() {
   <div class="position-absolute  back" >  
    <div
    className='row'>
-    <div className='col-md-4'>
+        <div className='col-md-4 '>
+   <div className='text-center'>
+   <p className='d-none d-lg-block'>
+      <br></br>
+      <br></br>
+      <br></br>
+   </p>
+  
+   <h1 className=' title-banner ' >مركز قصر النيل </h1>
+   <h3 className='title-banner-third'>
+    لجراحات النساء والتوليد والعقم </h3>
+   <h2 className='title-bnner-seconed'> الدكتور هشام الشافعي</h2>
+   <h2 className='title-bnner-seconed d-none d-lg-block'>إستشاري  امرض نساء</h2>
+   <h3 className='title-banner-third d-none d-lg-block'>والتوليد وعلاج العقم </h3>
+   </div>
+          
+    </div>
+    <div className='col-md-1'>
+      <div className=' d-block d-lg-none'>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      </div>
+    </div>
+    <div className='col-md-6 '>
    <div className='text-center'>
    <p className='d-none d-lg-block'>
       <br></br>
@@ -35,30 +66,13 @@ function MainPage() {
    <h1 className=' title-banner' >ولاده في  20 دقيقه</h1>
    <h3 className='title-banner-third'>
     بدون الم </h3>
-   <h2 className='title-bnner-seconed'> الدكتور هشام الشافعي</h2>
+   <h2 className='title-bnner-seconed d-none d-lg-block'> الدكتور هشام الشافعي</h2>
    
    </div>
           
     </div>
-    <div className='col-md-1'></div>
-    <div className='col-md-7 '>
-   <div className='text-center'>
-   <p className='d-none d-lg-block'>
-      <br></br>
-      <br></br>
-      <br></br>
-   </p>
   
-   <h1 className=' title-banner' >مركز قصر النيل </h1>
-   <h3 className='title-banner-third'>
-    لجراحات النساء والتوليد والعقم </h3>
-   <h2 className='title-bnner-seconed'> الدكتور هشام الشافعي</h2>
-   <h2 className='title-bnner-seconed'>إستشاري  امرض نساء</h2>
-   <h3 className='title-banner-third'>والتوليد وعلاج العقم </h3>
-   <h3 className='title-banner-third'> قصر </h3>
-   </div>
-          
-    </div>
+  
    </div>
        </div>
   
