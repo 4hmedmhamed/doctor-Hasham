@@ -1,7 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import Image from 'next/image'
-import first from "../../public/assit/Our_advantages/11.jpg"
+import first from "../../public/assit/2.jpg"
+import sec from "../../public/assit/11.jpg"
 import { FaCheckCircle } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa";
 function Aboute() {
@@ -10,12 +11,27 @@ function Aboute() {
       <div className='row mt-5 border-bottom'>
         <h2 className='text-center text-primary ' >من نحن</h2>
         <div className='col-md-6'>
-          <div  className='mt-4'>
+          <div  className='mt-4' style={{position:"relative"}}>
             <Image
               src={first}
               style={{
-                width: '100%',
+                width: '65%',
                 height: '80vh',
+                borderRadius: "20px",
+                boxShadow: " rgba(0, 0, 0, 0.35) 5px 2px 5px 5px",
+                position:"absolute",
+                // marginRight:"50%"
+                // zIndex:"1000"
+              }}
+            ></Image>
+            <Image
+              src={sec}
+              style={{
+                position:"absolute",
+                marginTop:"20vh",
+                marginRight:"40%",
+                width: '60%',
+                height: '50vh',
                 borderRadius: "20px",
                 boxShadow: " rgba(0, 0, 0, 0.35) 5px 2px 5px 5px",
               }}
@@ -30,39 +46,61 @@ function Aboute() {
             <span className='icon-right'>
               < FaCheckCircle />
             </span>
-            <h4 className='fs-4'>
-              عيادة نساء وتوليد و نمو الجنين، وأى مشاكل في الأجنة، ومتابعة الحمل الحرج، وعلاج عمليات العقم الأولي والثانوي
+            <h4 className='fs-4 m-1'>
+            مركز قصر النيل التخصصي لجراحات النساء والتوليد وعلاج العقم ، تم افتتاحه عام 2014، ونقوم بتقديم الخدمات التالية:
             </h4>
           </div>
           <div className='d-flex'>
             <span className='icon-right'>
               < FaCheck />  
             </span>
-            < p className=' text-about fs-5 text-muted'>-
-              معمل تحاليل للسيدات لإجراء كافة التحاليل والفحوصات خلال فترة الحمل
-              غرفة عمليات مجهزة بأحدث الأجهزة لإجراء عمليات كبرى للولادة الطبيعية والقيصرية
-              المناظير الجراحية مثل عمليات استئصال الرحم بالمنظار
-              مناظير العقم والأنابيب
-              غرف للراحة بعد العميلة ( إقامة فندقية معقمة)
+            < p className=' text-about fs-5 text-muted m-2'>
+            لدينا عيادة نساء وتوليد مُجهزة بأحدث أجهزة الأشعة التلفزيونية والسونار وذلك  لمتابعة نمو الجنين، وفحص أى مشكلات في الأجنة، ومتابعة الحمل الحرج.
             </p>
           </div>
           <div className='d-flex'>
             <span className='icon-right'>
               < FaCheck />
             </span>
-            <p className='text-about fs-5 text-muted '>{" "}
-              علاج كافة مشكلات العقم وحالات تأخر الإنجاب عبر استخدام أحدث الآليات والتقنيات العلاجية المتميزة مثل الحقن المجهري، أطفال الأنابيب، زراعة الخلايا الجذعية، حفظ البويضات ,  تجميد السائل المنوي . التلقيح الصناعي
+            <p className='text-about fs-5 text-muted m-2 '>
+            وجود غرفة عمليات مجهزة بأحدث الأجهزة لإجراء عمليات الولادة الطبيعية والقيصرية.
+            </p>
+          </div>
+        
+          <div className='d-flex'>
+            <span className='icon-right'>
+              < FaCheck />
+            </span>
+            <p className='text-about fs-5 text-muted m-2'>
+            وجود معمل تحليل متوفر فيه كافة التحاليل الطبية اللازمة ليكي خلال فترة الحمل.          
             </p>
           </div>
           <div className='d-flex'>
             <span className='icon-right'>
               < FaCheck />
             </span>
-            <p className='text-about fs-5 text-muted '>-
-
-            الدكتور يقوم على إدارة المركز وهو دكتور / أسامة الشافعي ماجستير نساء وتوليد بكلية طب القصر العيني ويعمل في مستشفى الجلاء التعليمي وتعتبر تانى مستشفي للنساء والولادة على مستوي الجمهورية من حيث إدارة العمليات
+            <p className='text-about fs-5 text-muted m-2'>
+            .أستاف تمريضي مُدرب على أعلى مستوى وتحت إشراف د/ هشام الشافعي(إستشاري أمراض النساء والتوليد)      
             </p>
           </div>
+          <div className='d-flex'>
+            <span className='icon-right'>
+              < FaCheck />
+            </span>
+            <p className='text-about fs-5 text-muted m-2'>
+            .إستخدام أحدث الأجهزة الطبية وأفضل التقنيات بغرف الأفاقة والسونار والمناظير.
+                          </p>
+          </div>
+        
+          <div className='d-flex'>
+            <span className='icon-right'>
+              < FaCheck />
+            </span>
+            <p className='text-about fs-5 text-muted m-2 '>
+            استخدام أفضل التقنيات الطبية لتقليل الآلام بعد الولادة
+                              </p>
+          </div>
+        
         </div>
         <div >
           <br></br>

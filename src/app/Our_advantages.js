@@ -21,13 +21,15 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaStar } from "react-icons/fa";
 
 function Our_advantages() {
-  
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 5000,
+    autoplaySpeed: 5000,
+    cssEase: "linear"
   };
 
   return (
@@ -37,7 +39,7 @@ function Our_advantages() {
         <h5 className='text-center fs-2 mt-3 title-advantages'>
           مميزاتنا
         </h5>
-        <div className='row border-bottom'>
+        <div className='row border-bottom py-2'>
           <div className='col-md-4 '>
             <div className='tabell mt-3 text-center  '>
               <div className='row'>
@@ -197,11 +199,76 @@ function Our_advantages() {
         <br></br>
 
       
-        {/* <div className='row fs-5 '> */}
+        <div className="slider-container" style={{background:"gray"}}>
+      <Slider {...settings}>
+        <div className='text-center m-2'>
+          <p className='border-bottom p-2  m-2 fs-5'>
+          محمد شريف
+          </p>
+           <p>
+           احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+            </p>
+        </div>
+        <div className='text-center m-2'>
+          <p className='border-bottom p-2  m-2 fs-5'>
+          محمد شريف
+          </p>
+           <p>
+           احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+            </p>
+        </div>
+        <div className='text-center m-2'>
+          <p className='border-bottom p-2  m-2 fs-5'>
+          محمد شريف
+          </p>
+           <p>
+           احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+            </p>
+        </div>
+        <div className='text-center m-2'>
+          <p className='border-bottom p-2  m-2 fs-5'>
+          محمد شريف
+          </p>
+           <p>
+           احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+            </p>
+        </div>
+        <div className='text-center m-2'>
+          <p className='border-bottom p-2  m-2 fs-5'>
+          محمد شريف
+          </p>
+           <p>
+           احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+            </p>
+        </div>
+        <div className='text-center m-2'>
+          <p className='border-bottom p-2  m-2 fs-5'>
+          محمد شريف
+          </p>
+           <p>
+           احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+            </p>
+        </div>
+        <div className='text-center m-2'>
+          <p className='border-bottom p-2  m-2 fs-5'>
+          محمد شريف
+          </p>
+           <p>
+           احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+            </p>
+        </div>
+        <div className='text-center m-2'>
+          <p className='border-bottom p-2  m-2 fs-5'>
+          محمد شريف
+          </p>
+           <p>
+           احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+            </p>
+        </div>
+     
 
-
-
-        {/* </div> */}
+      </Slider>
+    </div>
       </Container>
       <br></br>
     </div>
