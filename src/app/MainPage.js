@@ -42,10 +42,10 @@ function MainPage() {
 
                         <h1 className=' title-banner ' >مركز قصر النيل </h1>
                         <h3 className='title-banner-third'>
-                           لجراحات النساء والتوليد والعقم </h3>
+                           لجراحات النساء والتوليد وعلاج العقم </h3>
                         <h2 className='title-bnner-seconed'> الدكتور هشام الشافعي</h2>
-                        <h2 className='title-bnner-seconed d-none d-lg-block'>إستشاري  امرض نساء</h2>
-                        <h3 className='title-banner-third d-none d-lg-block'>والتوليد وعلاج العقم </h3>
+                        <h2 className='title-banner-third '>إستشاري  امرض نساء</h2>
+                        <h3 className='title-banner-third '>والتوليد وعلاج العقم </h3>
                      </div>
 
                   </div>
@@ -55,9 +55,7 @@ function MainPage() {
                            <br></br>
                            <br></br>
                         </p>
-                  <p className='d-blok d-lg-none'>
-                           <br></br>
-                        </p>
+           
                      <div className=''>
 
                      <Image src={doctor}
