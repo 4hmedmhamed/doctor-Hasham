@@ -29,7 +29,7 @@ function page() {
 
 
 
-  <form action="mailto:qasrelnil061@gmail.com" method="get" >
+  <form action="mailto:qasrelnil061@gmail.com" method="post" enctype="text/plain"  >
 Name:<br/>
 <input type="text" name="name" /><br />
 E-mail:<br />
