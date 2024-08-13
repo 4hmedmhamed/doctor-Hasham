@@ -55,6 +55,9 @@ function MainPage() {
                            <br></br>
                            <br></br>
                         </p>
+                  <p className='d-blok d-lg-none'>
+                           <br></br>
+                        </p>
                      <div className=''>
 
                      <Image src={doctor}
