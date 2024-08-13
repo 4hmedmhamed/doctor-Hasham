@@ -86,7 +86,7 @@ a {
   /* margin-right: 10%; */
   position: absolute;
   height: 60vh;
-  background: rgb(96, 43, 156);
+  background: rgba(96, 43, 156, 0.815);
   border-radius:100% 0% 100% 0% / 0% 22% 78% 100% ;
 }
 
