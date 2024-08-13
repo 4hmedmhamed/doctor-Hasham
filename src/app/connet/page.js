@@ -36,7 +36,7 @@ Name:<br />
 E-mail:<br />
 <input type="text" name="mail" /><br />
 E-mail:<br />
-<input type="date" name="mail" /><br />
+<input type="date" name="date" /><br />
 Comment:<br />
 <input type="text" name="comment" size="50" /><br /><br />
 <input type="submit" value="Send" />
