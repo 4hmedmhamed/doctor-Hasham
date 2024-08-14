@@ -78,8 +78,8 @@ function Our_advantages() {
                   </div>
                 </div>
                 <div className='col-8'>
-                  <p className='fs-5  m-2 mt-4  text-advantages'>
-                  نخبة من أفضل أطباء الأطفال لإستقبال المواليد الجدد.
+                  <p className='fs-5  m-4 mt-4  text-advantages'>
+                  نخبة من أفضل أطباء .
                   </p>
                 </div>
               </div>
@@ -100,14 +100,12 @@ function Our_advantages() {
                   </div>
                 </div>
                 <div className='col-8'>
-                  <p className='fs-5 mt-2 m-2  text-advantages'>
-
-                  عيادة تسكين الألام وولادة بدون ألم وجهاز بي سي ايه لتقليل الألام الولادة
+                  <p className='fs-5 m-4  text-advantages'>
+                  عيادة تسكين الألم والولادة بدون ألم
                   </p>
                 </div>
               </div>
             </div>
-       
           </div>
           <div className='col-md-4'>
             <div className='mt-5'>
@@ -121,7 +119,6 @@ function Our_advantages() {
                 }}
               ></Image>
             </div>
-
           </div>
           <div className='col-md-4 '>
             <div className='tabell mt-3 text-center  '>
@@ -139,10 +136,8 @@ function Our_advantages() {
                   </div>
                 </div>
                 <div className='col-8'>
-                  <p className='fs-5 mt-2 m-2  text-advantages'>
-
-                  .وجود طبيب تخدير من أفضل الأطباء علي مستوي الجمهورية
-
+                  <p className='fs-5  m-4 mt-4  text-advantages'>
+                  وجود أفضل أطباء تخدير 
                   </p>
                 </div>
               </div>
@@ -163,8 +158,8 @@ function Our_advantages() {
                   </div>
                 </div>
                 <div className='col-8'>
-                  <p className='fs-5 mt-2 m-2  text-advantages'>
-                  التعقيم قبل العمليات وأثناء العمليات وبعدها، ومستوي النظافة عالي
+                  <p className='fs-5  m-4  text-advantages'>
+                  التعقيم قبل العمليات وبعدها 
                 </p>
                 </div>
               </div>
@@ -185,8 +180,9 @@ function Our_advantages() {
                   </div>
                 </div>
                 <div className='col-8'>
-                  <p className='fs-5 mt-2 m-2  text-advantages'>
-                  معمل تحليل  شامل يوفر كافة التحاليل اللازمة للمريضة خلال فترة الحمل.
+                  <p className='fs-5 m-4  text-advantages'>
+                  معمل تحاليل شامل في المركز بأقل الأسعار
+
                   </p>
                 </div>
               </div>
