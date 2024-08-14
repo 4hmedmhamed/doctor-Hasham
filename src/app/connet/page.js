@@ -30,17 +30,17 @@ function page() {
 
   <form action="mailto:qasrelnil061@gmail.com" method="post" enctype="text/plain">
 Name:<br />
-<input type="text" name="name" /><br />
+<input type="text" name="name" className='form-control' /><br />
 Name:<br />
-<input type="text" name="address" /><br />
+<input type="text" name="address" className='form-control' /><br />
 E-mail:<br />
-<input type="text" name="mail" /><br />
+<input type="text" name="mail" className='form-control' /><br />
 E-mail:<br />
-<input type="date" name="date" /><br />
+<input type="date" name="date" className='form-control' /><br />
 Comment:<br />
-<input type="text" name="comment" size="50" /><br /><br />
-<input type="submit" value="Send" />
-<input type="reset" value="Reset" />
+<input type="text" name="comment" className='form-control'  size="100" /><br /><br />
+<input type="submit" value="Send" className='btn btn-primary' />
+{/* <input type="reset" value="Reset" /> */}
 </form>
 </div>
       </div>
