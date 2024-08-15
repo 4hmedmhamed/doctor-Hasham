@@ -37,7 +37,7 @@ function page() {
 
 
 
-            <form action="mailto:qasrelnil061@gmail.com" method="get" >
+            <form action="mailto:qasrelnil061@gmail.com" method="get"  enctype="text/plain">
               <div className='row'>
                 <div className='col-md-6'>
                 الاسم:
@@ -98,8 +98,8 @@ function page() {
             <Link href={'tel:01066726667'}>
             </Link>
            <Image src={call} 
-           width={200}
-           height={200}
+           width={150}
+           height={150}
            style={{borderRadius:"20px"}}>
 
            </Image>
