@@ -45,7 +45,20 @@ Comment:<br />
 <input type="submit" value="Send" />
 <input type="reset" value="Reset" />
 </form> /
-          <form action="mailto:someone@example.com" method="get" enctype="text/plain">
+
+<p>post</p>
+          <form action="mailto:someone@example.com " method="get"  enctype="multipart/form-data">
+Name:<br />
+<input type="text" name="name" /><br />
+E-mail:<br />
+<input type="text" name="mail" /><br />
+Comment:<br />
+<input type="text" name="comment" size="50" /><br /><br />
+<input type="submit" value="Send" />
+<input type="reset" value="Reset" />
+</form> /
+<p>get</p>
+          <form action="mailto:someone@example.com " method="get"  enctype="multipart/form-data">
 Name:<br />
 <input type="text" name="name" /><br />
 E-mail:<br />
@@ -56,36 +69,7 @@ Comment:<br />
 <input type="reset" value="Reset" />
 </form> /
 
-            <form action="mailto:qasrelnil061@gmail.com" method="post"  enctype="text/plain">
-              <div className='row'>
-                <div className='col-md-6'>
-                الاسم:
-                <input type="text" name="name" className='form-control ' />
-                </div>
-              <div className='col-md-6'>
-                العنوان:
-                <input type="text" name="address" className='form-control' />
-              </div>
-              <div className='col-md-6'>
-               
-              E-mail:<br />
-              <input type="text" name="mail" className='form-control' /><br />
-              </div>
-              <div className='col-md-6'>
-               
-           
-              التاريخ:<br />
-              <input type="date" name="date" className='form-control' /><br />
-              </div>
-              </div>
-              Comment:<br />
-              {/* <input type="text" name="comment" className='form-control'  size="100" /><br /><br /> */}
-              <textarea type="text" name="comment" className='w-100' size="100">
-
-              </textarea>
-              <input type="submit" value="Send" className='btn btn-primary' />
-              {/* <input type="reset" value="Reset" /> */}
-            </form>
+          
          
             
           </div>
