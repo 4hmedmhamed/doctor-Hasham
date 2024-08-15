@@ -37,7 +37,7 @@ function page() {
 
 
 
-            <form action="mailto:qasrelnil061@gmail.com" method="post" >
+            <form action="mailto:qasrelnil061@gmail.com" method="get" >
               <div className='row'>
                 <div className='col-md-6'>
                 الاسم:
@@ -77,8 +77,8 @@ function page() {
             <Link href={'https://www.facebook.com/share/USdGviMw2jHAcJ1i/?mibextid=qi2Omg'}>
             </Link>
            <Image src={face} 
-           width={200}
-           height={200}
+           width={150}
+           height={150}
            style={{borderRadius:"20px"}}>
 
            </Image>
@@ -87,8 +87,8 @@ function page() {
             <Link href={'https://youtu.be/m-BqR-lU8RY?si=C_EAJAEb3rBNVPfz'}>
             </Link>
            <Image src={you} 
-           width={200}
-           height={200}
+           width={150}
+           height={150}
            style={{borderRadius:"20px"}}>
 
            </Image>
@@ -108,8 +108,8 @@ function page() {
             <Link href={'https://api.whatsapp.com/send?phone=01066726667'}>
             </Link>
            <Image src={wath} 
-           width={200}
-           height={200}
+           width={150}
+           height={150}
            style={{borderRadius:"20px"}}
            >
              
