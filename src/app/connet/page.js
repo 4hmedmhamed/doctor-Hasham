@@ -35,9 +35,18 @@ function page() {
         
           <div className='border rounded'>
 
+          <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br />
+<input type="text" name="name" /><br />
+E-mail:<br />
+<input type="text" name="mail" /><br />
+Comment:<br />
+<input type="text" name="comment" size="50" /><br /><br />
+<input type="submit" value="Send" />
+<input type="reset" value="Reset" />
+</form> /
 
-
-            <form action="mailto:qasrelnil061@gmail.com" method="get"  enctype="text/plain">
+            <form action="mailto:qasrelnil061@gmail.com" method="post"  enctype="text/plain">
               <div className='row'>
                 <div className='col-md-6'>
                 الاسم:
