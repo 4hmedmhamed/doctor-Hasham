@@ -37,7 +37,7 @@ function page() {
 
 
 
-            <form action="mailto:qasrelnil061@gmail.com" method="post" enctype="text/plain">
+            <form action="mailto:qasrelnil061@gmail.com" method="post" >
               <div className='row'>
                 <div className='col-md-6'>
                 الاسم:
@@ -73,7 +73,7 @@ function page() {
         <div className='col-12 m-2'>
 
         </div>
-          <div className='col-md-3 '>
+          <div className='col-md-3  col-6'>
             <Link href={'https://www.facebook.com/share/USdGviMw2jHAcJ1i/?mibextid=qi2Omg'}>
             </Link>
            <Image src={face} 
@@ -83,7 +83,7 @@ function page() {
 
            </Image>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 col-6'>
             <Link href={'https://youtu.be/m-BqR-lU8RY?si=C_EAJAEb3rBNVPfz'}>
             </Link>
            <Image src={you} 
@@ -93,7 +93,7 @@ function page() {
 
            </Image>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 col-6'>
        
             <Link href={'tel:01066726667'}>
             </Link>
@@ -104,7 +104,7 @@ function page() {
 
            </Image>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 col-6'>
             <Link href={'https://api.whatsapp.com/send?phone=01066726667'}>
             </Link>
            <Image src={wath} 
