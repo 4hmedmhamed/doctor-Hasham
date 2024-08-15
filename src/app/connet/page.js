@@ -35,7 +35,7 @@ function page() {
         
           <div className='border rounded'>
 
-          <form action="mailto:someone@example.com" method="post" enctype="text">
+          <form action="mailto:someone@example.com" method="post" enctype="none">
 Name:<br />
 <input type="text" name="name" /><br />
 E-mail:<br />
@@ -45,8 +45,8 @@ Comment:<br />
 <input type="submit" value="Send" />
 <input type="reset" value="Reset" />
 </form> /
-
-          <form action="mailto:someone@example.com" method="post" enctype="multipart/form-data">
+<p>dtrghd</p>
+          <form action="mailto:someone@example.com" method="post" enctype="form-data">
 Name:<br />
 <input type="text" name="name" /><br />
 E-mail:<br />
