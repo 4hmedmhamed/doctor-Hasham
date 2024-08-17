@@ -32,74 +32,49 @@ function page() {
             مركز قصر النيل للنساء والتوليد
           </h2>
 
-        
+
           <div className='border rounded'>
 
-          <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-Name:<br />
-<input type="text" name="name" /><br />
-E-mail:<br />
-<input type="text" name="mail" /><br />
-Comment:<br />
-<input type="text" name="comment" size="50" /><br /><br />
-<input type="submit" value="Send" />
-<input type="reset" value="Reset" />
-</form>
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+              Name:<br />
+              <input type="text" name="name"  className='input-connect d-flex' /><br />
+              E-mail:<br />
+              <input type="text" name="mail" className='input-connect d-flex' /><br />
+              Name:<br />
+              <input type="date" name="name"  className='input-connect d-flex' /><br />
+              E-mail:<br />
+              <input type="text" name="mail" className='input-connect d-flex' /><br />
+              Comment:<br />
+              <input type="text" name="comment"  className='input-connect-text d-flex' /><br />
+              <input type="submit" value="Send" className='connect-button' />
+            </form>
 
 
 
-          
-         
-            
+
+
+
           </div>
-        <div className='col-12 m-2'>
+          <div>
+            <p className='fs-4'>كالتالي:
+              مع مركز قصر النيل وداعا لآلام الولادة
 
-        </div>
-          <div className='col-md-3  col-6'>
-            <Link href={'https://www.facebook.com/share/USdGviMw2jHAcJ1i/?mibextid=qi2Omg'}>
-            </Link>
-           <Image src={face} 
-           width={150}
-           height={150}
-           style={{borderRadius:"20px"}}>
+              يوفر لك مركز قصر النيل لجراحات النساء والتوليد وعلاج
+              العقم أفضل تجربة للولادة الطبيعية بإذن الله حيث تتسم بأنها:
 
-           </Image>
-          </div>
-          <div className='col-md-3 col-6'>
-            <Link href={'https://youtu.be/m-BqR-lU8RY?si=C_EAJAEb3rBNVPfz'}>
-            </Link>
-           <Image src={you} 
-           width={150}
-           height={150}
-           style={{borderRadius:"20px"}}>
+              آمنة
 
-           </Image>
-          </div>
-          <div className='col-md-3 col-6'>
-       
-            <Link href={'tel:01066726667'}>
-            </Link>
-           <Image src={call} 
-           width={150}
-           height={150}
-           style={{borderRadius:"20px"}}>
+              لمدة 20 دقيقة فقط
+              <br></br>
+              غير مؤلمة خاصة مع وجود أفضل طبيب تخدير على مستوى الجمهورية
 
-           </Image>
-          </div>
-          <div className='col-md-3 col-6'>
-            <Link href={'https://api.whatsapp.com/send?phone=01066726667'}>
-            </Link>
-           <Image src={wath} 
-           width={150}
-           height={150}
-           style={{borderRadius:"20px"}}
-           >
-             
-           </Image>
+              نستخدم أفضل التقنيات الطبية لتقليل الآلام بعد الولادة
+
+            </p>
           </div>
           <div className='col-12 m-2'>
 
-        </div>
+          </div>
         </div>
       </Container>
     </div>

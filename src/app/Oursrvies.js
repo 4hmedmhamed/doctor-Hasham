@@ -49,7 +49,7 @@ function Oursrvies() {
                     </div>
 
                 </div>
-                <div className='col-md-6 d-flex justify-content-center border '>
+                <div className='col-md-6 d-flex justify-content-center border p-3 '>
                     <div className=''>
 
                         <div className='icon-serves text-center  my-3 '>
@@ -66,7 +66,7 @@ function Oursrvies() {
                     </div>
 
                 </div>
-                <div className='col-md-6 d-flex justify-content-center border '>
+                <div className='col-md-6 d-flex justify-content-center border p-3 '>
                     <div className=''>
 
                         <div className='icon-serves text-center  my-3 '>
@@ -81,6 +81,7 @@ function Oursrvies() {
                     </div>
 
                 </div>
+                <br></br>
            
 
 

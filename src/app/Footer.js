@@ -3,6 +3,15 @@ import { Container } from 'react-bootstrap'
 import Image from 'next/image'
 import Logo from "../../public/assit/logo.png"
 import Link from 'next/link'
+
+import face from "../../public/assit/socail/face.jpeg"
+import you from "../../public/assit/socail/youtube.png"
+import wath from "../../public/assit/socail/wath.jpeg"
+import call from "../../public/assit/socail/call.png"
+
+import { FaPhone } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
+
 export const Footer = () => {
     return (
         <div style={{ backgroundColor: " #380751" }}  >
@@ -20,15 +29,19 @@ export const Footer = () => {
                                     width: '100%',
                                     borderRadius: "50%",
                                 }}></Image>
-                                <h5  className='text-light fs-5'> تواصل نعانا </h5>
-                                <h5  className='text-light '> هاتف </h5>
+                                <h5  className='text-light fs-5'> تواصل معانا</h5>
+                                <p><a href="tel:01066726667  " className='text-light  border-bottom m-2'><span className='m-2'> 
+                                    <FaPhone />
+                                    </span>01066726667</a></p>
                                 <div className='d-flex'> 
-                                <p><a href="tel:01066726667  " className='text-light  border-bottom m-2'>01066726667</a></p>
-                                <p><a href="tel:0402081860  " className='text-light  border-bottom m-2'>0402081860</a></p>
+                                <p><a href="tel:0402081860  " className='text-light  border-bottom m-2'>
+                                <span className='m-2'> 
+                                    <FaPhone />
+                                    </span>
+                                0402081860</a></p>
                                 </div>
-                                <h5  className='text-light '> Email </h5>
                                 <div className='d-flex'> 
-                                <p><a href="mailto:qasrelnil061@gmail.com"  className='text-light  border-bottom m-2'> qasrelnil061@gmail.com</a></p>
+                                <p><a href="mailto:qasrelnil061@gmail.com"  className='text-light  border-bottom m-2'><MdOutlineMailOutline /> qasrelnil061@gmail.com</a></p>
                                 </div>
                         </div>
                     
@@ -52,6 +65,53 @@ export const Footer = () => {
                         <h5  className='text-light mt-2 '> 
                         يشمل بعضها حصول الطفل على بكتيريا مفيدة، ومشاكل تنفس أقل، في وقت مبكر الرضاعة الطبيعية،
                              </h5>
+                        <h5  className='text-light mt-2 '> العنوان:
+                        المحلة الكبرى ، آخر طريق نادى ضباط الشرطة، أمام كوبرى الرباط
+                             </h5>
+                        <div className='d-flex '>
+                        <div className=' mx-2'>
+            <Link href={'https://www.facebook.com/share/USdGviMw2jHAcJ1i/?mibextid=qi2Omg'}>
+           <Image src={face} 
+           width={30}
+           height={30}
+           style={{borderRadius:"20px"}}>
+
+           </Image>
+             </Link>
+          </div>
+          <div className=' mx-2'>
+            <Link href={'https://youtu.be/m-BqR-lU8RY?si=C_EAJAEb3rBNVPfz'}>
+           <Image src={you} 
+           width={30}
+           height={30}
+           style={{borderRadius:"20px"}}>
+
+           </Image>
+             </Link>
+          </div>
+          <div className=' mx-2'>
+       
+            <Link href={'tel:01066726667'}>
+           <Image src={call} 
+           width={30}
+           height={30}
+           style={{borderRadius:"20px"}}>
+
+           </Image>
+             </Link>
+          </div>
+          <div className='6 mx-2'>
+            <Link href={'https://api.whatsapp.com/send?phone=01066726667'}>
+           <Image src={wath} 
+           width={30}
+           height={30}
+           style={{borderRadius:"20px"}}
+           >
+             
+           </Image>
+             </Link>
+          </div>
+                        </div>
                         </div>
                     </div>
                 </div>

@@ -15,6 +15,8 @@ import doctor from "../../public/assit/Our_advantages/doctor.jpg"
 
 import Time from "../../public/assit/Our_advantages/pexels-rdne-6129111.jpg"
 import Time_2 from "../../public/assit/Our_advantages/artical.jpg"
+import Time_4 from "../../public/assit/Our_advantages/artical2.jpg"
+import Time_3 from "../../public/assit/Our_advantages/artical3.jpg"
 import { Container } from 'react-bootstrap'
 
 import Slider from "react-slick";
@@ -286,7 +288,7 @@ function Our_advantages() {
             <div className='m-4'>
 
             <Image
-                src={Time}
+                src={Time_4}
                 width={200}
                 height={200}
                 style={{
@@ -318,7 +320,7 @@ function Our_advantages() {
             <div className='m-4'>
 
             <Image
-                src={Time}
+                src={Time_3}
                 width={200}
                 height={200}
                 style={{
