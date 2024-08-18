@@ -40,16 +40,26 @@ function page() {
               <input type="text" name="name"  className='input-connect d-flex' /><br />
               E-mail:<br />
               <input type="text" name="mail" className='input-connect d-flex' /><br />
-              Name:<br />
-              <input type="date" name="name"  className='input-connect d-flex' /><br />
-              E-mail:<br />
-              <input type="text" name="mail" className='input-connect d-flex' /><br />
+              date:<br />
+              <input type="date" name="addres"  className='input-connect d-flex' /><br />
+              adress:<br />
+              <input type="text" name="adress" className='input-connect d-flex' /><br />
               Comment:<br />
               <input type="text" name="comment"  className='input-connect-text d-flex' /><br />
               <input type="submit" value="Send" className='connect-button' />
             </form>
 
 
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br />
+<input type="text" name="name" /><br />
+E-mail:<br />
+<input type="text" name="mail" /><br />
+Comment:<br />
+<input type="text" name="comment" size="50" /><br /><br />
+<input type="submit" value="Send" />
+<input type="reset" value="Reset" />
+</form>
 
 
 
