@@ -40,7 +40,7 @@ function page() {
 
           </div>
 
-          <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+          <form action="mailto:someone@example.com" method="post" enctype="plain">
             Name:<br />
             <input type="text" name="name" /><br />
             E-mail:<br />
@@ -50,17 +50,7 @@ function page() {
             <input type="submit" value="Send" />
             <input type="reset" value="Reset" />
           </form>
-          <p>fthgy</p>
-          <form action="mailto:someone@example.com" method="post" >
-            Name:<br />
-            <input type="text" name="name" /><br />
-            E-mail:<br />
-            <input type="text" name="mail" /><br />
-            Comment:<br />
-            <input type="text" name="comment" size="50" /><br /><br />
-            <input type="submit" value="Send" />
-            <input type="reset" value="Reset" />
-          </form>
+        
 
           <div>
             <p className='fs-4'>كالتالي:
