@@ -33,7 +33,7 @@ function Our_advantages() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 5000,
+    speed: 1000,
     autoplaySpeed: 6000,
     cssEase: "linear"
   };
@@ -254,22 +254,7 @@ function Our_advantages() {
 
               </p>
             </div>
-            <div className='text-center m-2'>
-              <p className='border-bottom p-2  m-2 fs-5'>
-                محمد شريف
-              </p>
-              <p>
-                احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
-              </p>
-            </div>
-            <div className='text-center m-2'>
-              <p className='border-bottom p-2  m-2 fs-5'>
-                محمد شريف
-              </p>
-              <p>
-                احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
-              </p>
-            </div>
+        
 
 
           </Slider>
