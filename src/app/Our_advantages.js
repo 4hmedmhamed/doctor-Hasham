@@ -244,16 +244,7 @@ function Our_advantages() {
               ربنا يبارك فى حضرتك د هشام المحترم ويزيدك من فضله
               </p>
             </div>
-            <div className='text-center m-2'>
-              <p className='border-bottom p-2  m-2 fs-5'>
-                ام حمزه
-
-              </p>
-              <p>
-              اشطر واحسن دكتور بجد ربنا يبارك ف صحتك ويجعله في ميزان حسناتك يارب
-
-              </p>
-            </div>
+           
         
 
 
