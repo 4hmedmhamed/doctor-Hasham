@@ -46,16 +46,7 @@ function page() {
   <h2>تقدر تستفسر اوتبعت استشارة </h2>
   
   <div className='d-flex'>
-  <div className=' mx-2'>
-            <Link href={'https://www.facebook.com/share/USdGviMw2jHAcJ1i/?mibextid=qi2Omg'}>
-           <Image src={face} 
-           width={70}
-           height={70}
-           style={{borderRadius:"20px"}}>
 
-           </Image>
-             </Link>
-          </div>
         
           <div className=' mx-2'>
        
@@ -76,6 +67,16 @@ function page() {
            style={{borderRadius:"20px"}}
            >
              
+           </Image>
+             </Link>
+          </div>
+          <div className=' mx-2'>
+            <Link href={'https://www.facebook.com/share/USdGviMw2jHAcJ1i/?mibextid=qi2Omg'}>
+           <Image src={face} 
+           width={70}
+           height={70}
+           style={{borderRadius:"20px"}}>
+
            </Image>
              </Link>
           </div>
