@@ -43,7 +43,7 @@ function page() {
 
           </div>
 <div>
-  <h2>تقدر تستفسر اوتبعت استشاره</h2>
+  <h2>تقدر تستفسر اوتبعت استشارة </h2>
   
   <div className='d-flex'>
   <div className=' mx-2'>
@@ -56,16 +56,7 @@ function page() {
            </Image>
              </Link>
           </div>
-          <div className=' mx-2'>
-            <Link href={'https://youtu.be/m-BqR-lU8RY?si=C_EAJAEb3rBNVPfz'}>
-           <Image src={you} 
-           width={70}
-           height={70}
-           style={{borderRadius:"20px"}}>
-
-           </Image>
-             </Link>
-          </div>
+        
           <div className=' mx-2'>
        
             <Link href={'tel:01066726667'}>
@@ -92,23 +83,7 @@ function page() {
 </div>
         
 
-          <div>
-            <p className='fs-4'>كالتالي:
-              مع مركز قصر النيل وداعا لآلام الولادة
-
-              يوفر لك مركز قصر النيل لجراحات النساء والتوليد وعلاج
-              العقم أفضل تجربة للولادة الطبيعية بإذن الله حيث تتسم بأنها:
-
-              آمنة
-
-              لمدة 20 دقيقة فقط
-              <br></br>
-              غير مؤلمة خاصة مع وجود أفضل طبيب تخدير على مستوى الجمهورية
-
-              نستخدم أفضل التقنيات الطبية لتقليل الآلام بعد الولادة
-
-            </p>
-          </div>
+        
           <div className='col-12 m-2'>
 
           </div>

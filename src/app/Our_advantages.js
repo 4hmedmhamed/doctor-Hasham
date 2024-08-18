@@ -205,50 +205,53 @@ function Our_advantages() {
           <Slider {...settings}>
             <div className='text-center m-2'>
               <p className='border-bottom p-2  m-2 fs-5'>
-                محمد شريف
+                Reham Talat
               </p>
               <p>
-                احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+              اللهم بارك فعلا الجهاز تحفه ووفر علينا عمل اشاعه غاليه ربنا يوفقك حضرتك يادكتور
+
               </p>
             </div>
             <div className='text-center m-2'>
               <p className='border-bottom p-2  m-2 fs-5'>
-                محمد شريف
+                Wasim Omran
               </p>
               <p>
-                احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+              شطر وأفضل دكتور وقبل مايكون دكتور فهو انسان على خلق وانسان رحيم عن تجربه بفضل الله
               </p>
             </div>
             <div className='text-center m-2'>
               <p className='border-bottom p-2  m-2 fs-5'>
-                محمد شريف
+                Reham Talat
               </p>
               <p>
-                احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+              اللهم بارك فعلا الجهاز تحفه ووفر علينا عمل اشاعه غاليه ربنا يوفقك حضرتك يادكتور
               </p>
             </div>
             <div className='text-center m-2'>
               <p className='border-bottom p-2  m-2 fs-5'>
-                محمد شريف
+                Marwa Mohamed
               </p>
               <p>
-                احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+              ربنا يبارك فحضرتك يا دكتور من اشطر الدكاتره عن تجربه بالتوفيق دايما أن شاء الله
               </p>
             </div>
             <div className='text-center m-2'>
               <p className='border-bottom p-2  m-2 fs-5'>
-                محمد شريف
+                Anwer Elsayad
               </p>
               <p>
-                احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+              ربنا يبارك فى حضرتك د هشام المحترم ويزيدك من فضله
               </p>
             </div>
             <div className='text-center m-2'>
               <p className='border-bottom p-2  m-2 fs-5'>
-                محمد شريف
+                ام حمزه
+
               </p>
               <p>
-                احسن دكتور هشام الشافعي شطار جدا ومبتحسيش بي اي حاجه
+              اشطر واحسن دكتور بجد ربنا يبارك ف صحتك ويجعله في ميزان حسناتك يارب
+
               </p>
             </div>
             <div className='text-center m-2'>
