@@ -50,7 +50,7 @@ function page() {
             <input type="submit" value="Send" />
             <input type="reset" value="Reset" />
           </form>
-          <form action="mailto:someone@example.com" method="get" enctype="text/plain">
+          <form action="mailto:someone@example.com" method="post" >
             Name:<br />
             <input type="text" name="name" /><br />
             E-mail:<br />
