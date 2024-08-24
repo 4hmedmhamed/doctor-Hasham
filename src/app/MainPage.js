@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import first from "../../public/assit/banner-.png"
 import banner from "../../public/assit/banner/frist.jpg"
-import doctor from "../../public/assit/banner/doctor.png"
+import doctor from "../../public/assit/banner/1.png"
 
 import Oursrvies from './Oursrvies'
 
@@ -29,16 +29,16 @@ function MainPage() {
             <div className='title-banner-main'>
                <div className='row'>
 
-                  <div className='col-md-8 '>
-                     <div className='text-center '>
-                        <p className='d-none d-lg-block'>
-                           <br></br>
-                           <br></br>
-                           <br></br>
-                           <br></br>
-                           <br></br>
-                           <br></br>
-                        </p>
+                  <div className='col-md-8  d-flex align-items-center  justify-content-center '>
+                  <div className='d-block d-sm-block d-md-none'  style={{
+                     width: '100%',
+                     height: '45vh',
+                     // filter:' blur(100%)',
+                  }}  >
+
+                     
+                     <div className='text-center  '>
+
 
                         <h1 className=' title-banner ' >مركز قصر النيل </h1>
                         <h3 className='title-banner-third'>
@@ -47,21 +47,49 @@ function MainPage() {
                         <h2 className='title-banner-third '>إستشاري  امرض نساء</h2>
                         <h3 className='title-banner-third '>والتوليد وعلاج العقم </h3>
                      </div>
+                     </div>
+                  <div className='d-none d-md-block' >
+                     <div className='text-center  '>
+                        <h1 className=' title-banner ' >مركز قصر النيل </h1>
+                        <h3 className='title-banner-third'>
+                           لجراحات النساء والتوليد وعلاج العقم </h3>
+                        <h2 className='title-bnner-seconed'> الدكتور هشام الشافعي</h2>
+                        <h2 className='title-banner-third '>إستشاري  امرض نساء</h2>
+                        <h3 className='title-banner-third '>والتوليد وعلاج العقم </h3>
+                     </div>
+                     </div>
 
                   </div>
-                  <div className='col-md-4  '>
-                  <p className='d-none d-lg-block'>
-                           <br></br>
-                           <br></br>
-                           <br></br>
-                        </p>
-           
-                     <div className=''>
+                  <div className='col-md-4   img-doctor ' >
 
-                     <Image src={doctor}
-                         style={{width:"100%" , height:"40%"}}
-
-                     ></Image>
+                     <div className='d-none d-md-block'  >
+                        <div style={{height:"15vh"}}>
+                           <p>.</p>
+                        </div>
+                        <Image
+                  src={doctor}
+                  //    width={"100%"}
+                  style={{
+                     width: '100%',
+                     height: '85vh',
+                     // filter:' blur(100%)',
+                  }}
+               />
+                     </div>
+                     <div className='d-block d-sm-block d-md-none'  style={{
+                     width: '100%',
+                     height: '55vh',
+                     // filter:' blur(100%)',
+                  }}  >
+                        <Image
+                  src={doctor}
+                  //    width={"100%"}
+                  style={{
+                     width: '100%',
+                     height: '100%',
+                     // filter:' blur(100%)',
+                  }}
+               />
                      </div>
                   </div>
 

@@ -244,10 +244,6 @@ function Our_advantages() {
               ربنا يبارك فى حضرتك د هشام المحترم ويزيدك من فضله
               </p>
             </div>
-           
-        
-
-
           </Slider>
         </div>
 <br></br>
