@@ -26,7 +26,7 @@ function OffCanvasExample({ name, ...props }) {
                 }
             </p>
 
-            <Offcanvas show={show} onHide={handleClose} {...props} style={{ backgroundColor: "#360851 ", width: "80%" }} className="side-bar">
+            <Offcanvas show={show} onHide={handleClose} {...props} style={{ backgroundColor: "#360851 ", width: "80%" , color :"#ffff"}} className="side-bar">
                 <Offcanvas.Header closeButton>
                     <div className='w-100'>
 

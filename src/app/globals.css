@@ -126,8 +126,8 @@ a {
 .title-banner{
   /* margin-top: 100px; */
   font-family: "Cairo", sans-serif;
-  font-optical-sizing:60px;
-  font-weight: 700;
+  font-optical-sizing:50px;
+  font-weight: 500;
 
     color: #ffffff;
     text-shadow: rgb(100, 28, 122) 3px 0 12px;
@@ -137,19 +137,19 @@ a {
 .title-bnner-seconed{
   font-family: "Cairo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
     text-decoration: none;
     color: #eee9f0;
     text-shadow: rgb(88, 88, 84) 3px 0 12px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .title-banner-third{
   font-family: "Cairo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
