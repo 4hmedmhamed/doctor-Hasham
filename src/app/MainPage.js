@@ -33,7 +33,7 @@ function MainPage() {
                   <div className='d-block d-md-none' 
                    style={{
                      width: '100%',
-                     height: '50vh',
+                     height: '45vh',
                      // filter:' blur(100%)',
                   }}  >
 
@@ -102,7 +102,7 @@ function MainPage() {
                         
                         <div  style={{
                      width: '100%',
-                     height: '50vh',
+                     height: '55vh',
                      marginBottom:"0px",
                      overflow:"hidden"
                   }}>
